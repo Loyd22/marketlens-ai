@@ -1,0 +1,74 @@
+
+# ====================================
+# MarketLens AI — Git Ignore Rules
+# ====================================
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Python testing and linting
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Node.js dependencies
+node_modules/
+
+# Frontend build artifacts
+frontend/dist/
+frontend/coverage/
+*.tsbuildinfo
+
+# Frontend local environment
+frontend/.vite/
+
+# Logs
+*.log
+logs/
+
+# Local data and generated artifacts
+data/
+artifacts/
+checkpoints/
+*.sqlite
+*.sqlite3
+
+# IDE and editor configuration
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+
+# PostgreSQL backup files
+*.sql.gz
+*.dump
+*.backup
